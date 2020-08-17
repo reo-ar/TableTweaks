@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.reoar.tabletweaks.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "tabletweaks.refmap.json",
+  "mixins": [
+    "EnchantmentContainerMixin",
+    "PlayerReserve",
+    "ServerPlayerReserve"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
